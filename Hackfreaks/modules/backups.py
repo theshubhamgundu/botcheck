@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import Hackfreaks.modules.sql.notes_sql as sql
-from Hackfreaks import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
-from Hackfreaks.__main__ import DATA_IMPORT
-from Hackfreaks.modules.helper_funcs.chat_status import user_admin
-from Hackfreaks.modules.helper_funcs.alternate import typing_action
+import EMCEE.modules.sql.notes_sql as sql
+from EMCEE import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
+from EMCEE.__main__ import DATA_IMPORT
+from EMCEE.modules.helper_funcs.chat_status import user_admin
+from EMCEE.modules.helper_funcs.alternate import typing_action
 
-# from Hackfreaks.modules.rules import get_rules
-import Hackfreaks.modules.sql.rules_sql as rulessql
+# from EMCEE.modules.rules import get_rules
+import EMCEE.modules.sql.rules_sql as rulessql
 
-# from Hackfreaks.modules.sql import warns_sql as warnssql
-import Hackfreaks.modules.sql.blacklist_sql as blacklistsql
-from Hackfreaks.modules.sql import disable_sql as disabledsql
+# from EMCEE.modules.sql import warns_sql as warnssql
+import EMCEE.modules.sql.blacklist_sql as blacklistsql
+from EMCEE.modules.sql import disable_sql as disabledsql
 
-# from Hackfreaks.modules.sql import cust_filters_sql as filtersql
-# import Hackfreaks.modules.sql.welcome_sql as welcsql
-import Hackfreaks.modules.sql.locks_sql as locksql
-from Hackfreaks.modules.connection import connected
+# from EMCEE.modules.sql import cust_filters_sql as filtersql
+# import EMCEE.modules.sql.welcome_sql as welcsql
+import EMCEE.modules.sql.locks_sql as locksql
+from EMEE.modules.connection import connected
 
 
 @run_async
