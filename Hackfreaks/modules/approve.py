@@ -1,9 +1,9 @@
-from Hackfreaks.modules.disable import DisableAbleCommandHandler
-from Hackfreaks import dispatcher, DRAGONS, telethn
-from Hackfreaks.modules.helper_funcs.extraction import extract_user
+from EMCEE.modules.disable import DisableAbleCommandHandler
+from EMCEE import dispatcher, DRAGONS, telethn
+from EMCEE.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, run_async
-import Hackfreaks.modules.sql.approve_sql as sql
-from Hackfreaks.modules.helper_funcs.chat_status import (bot_admin, user_admin)
+import EMCEE.modules.sql.approve_sql as sql
+from EMCEE.modules.helper_funcs.chat_status import (bot_admin, user_admin)
 from telegram import ParseMode
 from telethon import events, Button
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantCreator
