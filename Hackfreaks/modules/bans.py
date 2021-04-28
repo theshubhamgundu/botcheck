@@ -5,15 +5,15 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from Hackfreaks import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
+from EMCEE import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
                           WOLVES, dispatcher)
-from Hackfreaks.modules.disable import DisableAbleCommandHandler
-from Hackfreaks.modules.helper_funcs.chat_status import (
+from EMCEE.modules.disable import DisableAbleCommandHandler
+from EMCEE.modules.helper_funcs.chat_status import (
     bot_admin, can_restrict, connection_status, is_user_admin,
     is_user_ban_protected, is_user_in_chat, user_admin, user_can_ban)
-from Hackfreaks.modules.helper_funcs.extraction import extract_user_and_text
-from Hackfreaks.modules.helper_funcs.string_handling import extract_time
-from Hackfreaks.modules.log_channel import gloggable, loggable
+from EMCEE.modules.helper_funcs.extraction import extract_user_and_text
+from EMCEE.modules.helper_funcs.string_handling import extract_time
+from EMCEE.modules.log_channel import gloggable, loggable
 
 
 @run_async
