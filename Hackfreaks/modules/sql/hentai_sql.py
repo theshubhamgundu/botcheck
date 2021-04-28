@@ -1,7 +1,7 @@
 import threading
 from sqlalchemy import Column, String, UnicodeText, Integer, BigInteger
 
-from Hackfreaks.modules.sql import SESSION, BASE
+from EMCEE.modules.sql import SESSION, BASE
 
 class AllowedChat(BASE):
     __tablename__ = "chat_added"
