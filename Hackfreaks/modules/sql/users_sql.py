@@ -1,7 +1,7 @@
 import threading
 
-from Hackfreaks import dispatcher
-from Hackfreaks.modules.sql import BASE, SESSION
+from EMCEE import dispatcher
+from EMCEE.modules.sql import BASE, SESSION
 from sqlalchemy import (Column, ForeignKey, Integer, String, UnicodeText,
                         UniqueConstraint, func)
 
