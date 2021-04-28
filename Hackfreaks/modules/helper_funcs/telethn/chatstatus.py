@@ -1,5 +1,5 @@
-from Hackfreaks.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from Hackfreaks import DRAGONS
+from EMCEE.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from EMCEE import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
