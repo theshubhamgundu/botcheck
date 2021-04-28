@@ -1,7 +1,7 @@
 import threading
 from typing import Union
 
-from Hackfreaks.modules.sql import BASE, SESSION
+from EMCEE.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String
 
 
