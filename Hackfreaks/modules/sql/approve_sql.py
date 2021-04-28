@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, func, distinct
 
-from Hackfreaks.modules.sql import BASE, SESSION
+from EMCEE.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):
