@@ -1,10 +1,10 @@
 import random, html
 
-from Hackfreaks import dispatcher
-from Hackfreaks.modules.disable import (DisableAbleCommandHandler,
+from EMCEE import dispatcher
+from EMCEE.modules.disable import (DisableAbleCommandHandler,
                                           DisableAbleMessageHandler)
-from Hackfreaks.modules.sql import afk_sql as sql
-from Hackfreaks.modules.users import get_user_id
+from EMCEE.modules.sql import afk_sql as sql
+from EMCEE.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
