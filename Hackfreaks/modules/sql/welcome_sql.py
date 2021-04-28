@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from Hackfreaks.modules.helper_funcs.msg_types import Types
-from Hackfreaks.modules.sql import BASE, SESSION
+from EMCEE.modules.helper_funcs.msg_types import Types
+from EMCEE.modules.sql import BASE, SESSION
 from sqlalchemy import (BigInteger, Boolean, Column, Integer, String,
                         UnicodeText)
 
