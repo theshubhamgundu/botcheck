@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from Hackfreaks import LOGGER
-from Hackfreaks.modules.users import get_user_id
+from EMCEE import LOGGER
+from EMCEE.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
