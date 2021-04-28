@@ -1,6 +1,6 @@
 import threading
 
-from Hackfreaks.modules.sql import BASE, SESSION
+from EMCEE.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String, UnicodeText
 
 
