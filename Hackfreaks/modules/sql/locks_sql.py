@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from Hackfreaks.modules.sql import SESSION, BASE
+from EMCEE.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
