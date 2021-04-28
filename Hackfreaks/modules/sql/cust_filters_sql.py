@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
-from Hackfreaks.modules.helper_funcs.msg_types import Types
-from Hackfreaks.modules.sql import BASE, SESSION
+from EMCEE.modules.helper_funcs.msg_types import Types
+from EMCEE.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
