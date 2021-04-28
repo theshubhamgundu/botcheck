@@ -1,6 +1,6 @@
-import Hackfreaks.modules.sql.blacklistusers_sql as sql
-from Hackfreaks import ALLOW_EXCL
-from Hackfreaks import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES)
+import EMCEE.modules.sql.blacklistusers_sql as sql
+from EMCEE import ALLOW_EXCL
+from EMCEE import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES)
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
