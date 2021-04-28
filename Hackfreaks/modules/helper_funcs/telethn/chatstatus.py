@@ -1,5 +1,5 @@
-from EMCEE.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from EMCEE import DRAGONS
+from EMAA.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from EMAA import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
