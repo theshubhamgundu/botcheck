@@ -3,23 +3,23 @@ from typing import Optional, List
 
 from telegram import Message, Chat, Update, Bot, User, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, ChatPermissions
 
-from Hackfreaks import TIGERS, WOLVES, dispatcher
-from Hackfreaks.modules.helper_funcs.chat_status import (
+from EMCEE import TIGERS, WOLVES, dispatcher
+from EMCEE.modules.helper_funcs.chat_status import (
     bot_admin, can_restrict, connection_status, is_user_admin, user_admin,
     user_admin_no_reply)
-from Hackfreaks.modules.log_channel import loggable
-from Hackfreaks.modules.sql import antiflood_sql as sql
+from EMCEE.modules.log_channel import loggable
+from EMCEE.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html, escape_markdown
-from Hackfreaks import dispatcher
-from Hackfreaks.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
-from Hackfreaks.modules.helper_funcs.string_handling import extract_time
-from Hackfreaks.modules.log_channel import loggable
-from Hackfreaks.modules.sql import antiflood_sql as sql
-from Hackfreaks.modules.connection import connected
-from Hackfreaks.modules.helper_funcs.alternate import send_message
-from Hackfreaks.modules.sql.approve_sql import is_approved
+from EMCEE import dispatcher
+from EMCEE.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
+from EMCEE.modules.helper_funcs.string_handling import extract_time
+from EMCEE.modules.log_channel import loggable
+from EMCEE.modules.sql import antiflood_sql as sql
+from EMCEE.modules.connection import connected
+from EMCEE.modules.helper_funcs.alternate import send_message
+from EMCEE.modules.sql.approve_sql import is_approved
 FLOOD_GROUP = 3
 
 
